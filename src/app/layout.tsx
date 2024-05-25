@@ -2,22 +2,32 @@ import "./globals.css";
 import { Inter } from "next/font/google";
 import Sidebar from "./components/Sidebar/Sidebar";
 import Navbar from "./components/Navbar/Navbar";
-import 'bootstrap/dist/css/bootstrap.min.css';
-import 'react-toastify/dist/ReactToastify.css';
+import "bootstrap/dist/css/bootstrap.min.css";
+import "react-toastify/dist/ReactToastify.css";
 import { ToastContainer } from "react-toastify";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Nouridine",
-  description: "My Name is Mahamadou Nouridine, I'm junior software developer aiming to bring success in whatever I'm inveolved in",
+  description:
+    "My Name is Mahamadou Nouridine, I'm junior software developer aiming to bring success in whatever I'm inveolved in",
 };
 
-export default function RootLayout({ children }) {
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
   return (
     <html lang="en">
       <head>
-        <link rel="icon" type="image/png" href="https://res.cloudinary.com/ddayqmsfs/image/upload/v1697407794/my%20portfolio/standed-fotor-bg-remover-20230926213924-fotor-20230926215051_a7tny9.png" sizes="any" />
+        <link
+          rel="icon"
+          type="image/png"
+          href="https://res.cloudinary.com/ddayqmsfs/image/upload/v1697407794/my%20portfolio/standed-fotor-bg-remover-20230926213924-fotor-20230926215051_a7tny9.png"
+          sizes="any"
+        />
         <link
           rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
@@ -26,7 +36,7 @@ export default function RootLayout({ children }) {
         />
       </head>
       <body className={inter.className}>
-      <ToastContainer />
+        <ToastContainer />
         <main>
           <Sidebar />
           <div className="main-content">
