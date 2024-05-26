@@ -6,6 +6,8 @@ import Navbar from "./components/Navbar/Navbar";
 import "react-toastify/dist/ReactToastify.css";
 import { ToastContainer } from "react-toastify";
 import  "bootstrap/scss/bootstrap.scss";
+import "flag-icons/css/flag-icons.min.css";
+// import "/node_modules/flag-icons/css/flag-icons.min.css";
 
 const inter = Inter({ subsets: ["latin"] });
 
