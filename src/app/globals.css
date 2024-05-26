@@ -163,7 +163,7 @@ html {
 }
 
 body {
-  background: var(--smoky-black) !important;
+  background: var(--smoky-black);
 }
 
 .tags {

@@ -2,9 +2,10 @@ import "./globals.css";
 import { Inter } from "next/font/google";
 import Sidebar from "./components/Sidebar/Sidebar";
 import Navbar from "./components/Navbar/Navbar";
-import "bootstrap/dist/css/bootstrap.min.css";
+// import "bootstrap/dist/css/bootstrap.min.css";
 import "react-toastify/dist/ReactToastify.css";
 import { ToastContainer } from "react-toastify";
+import  "bootstrap/scss/bootstrap.scss";
 
 const inter = Inter({ subsets: ["latin"] });
 
