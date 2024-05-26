@@ -1,6 +1,7 @@
 import React from "react";
 import LinkTo from "./LinkTo";
 import styles from "./styles/navbar.module.css";
+import LanguageDropdown from "./components/LanguageDropdown";
 
 const Navbar = () => {
   return (
@@ -15,6 +16,9 @@ const Navbar = () => {
         <LinkTo route="/blog" name="Blog" />
 
         <LinkTo route="/contact" name="Contact" />
+        <li className={styles["navbar-item"]}>
+          <LanguageDropdown />
+        </li>
       </ul>
     </nav>
   );
