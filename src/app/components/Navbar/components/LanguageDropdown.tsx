@@ -16,8 +16,8 @@ const LanguageDropdown = () => {
         <span className="fi fi-us"></span>{" "}
         <Image
           alt="chevron"
-          width={20}
-          height={20}
+          width={13}
+          height={13}
           style={{ color: "var(--orange-yellow-crayola)" }}
           src="/assets/images/svg-icons/chevron-down-outline.svg"
         />
