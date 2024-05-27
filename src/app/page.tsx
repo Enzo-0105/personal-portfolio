@@ -11,8 +11,8 @@ export default function Home() {
 
       <section className="about-text">
         <p>
-          I&apos;m Mahamadou Nouridine, a full-stack software engineer specializing
-          in MERN stack, NEXT js, NEST js, Redux, and Rails to create solutions
+          I&apos;m Mahamadou Nouridine, a full-stack software developer specialized
+          in MERN stack, NEXT js, NEST js, Redux, Rails and more to create solutions
           for businesses and individuals. My background in solving complex
           mathematics problems during high-level studies aids me in tackling
           computer algorithms and challenges. I&apos;m passionate about
