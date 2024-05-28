@@ -7,7 +7,6 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
-    "sonar": "sonar-scanner"
   },
   "dependencies": {
     "axios": "^1.5.1",
@@ -32,6 +31,5 @@
   },
   "devDependencies": {
     "@types/node": "20.12.12"
-    "sonarqube-scanner": "^3.0.0"
   }
 }
