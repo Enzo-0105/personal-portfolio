@@ -31,5 +31,6 @@
   },
   "devDependencies": {
     "@types/node": "20.12.12"
+    "sonarqube-scanner": "^3.0.0"
   }
 }
